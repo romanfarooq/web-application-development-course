@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main::before {
+    content: "";
+    background: url("https://media.istockphoto.com/photos/pakistan-flag-waving-cloudy-sky-background-picture-id1069756720?b=1&k=20&m=1069756720&s=170667a&w=0&h=1HvWW4hmPeAUyTd5Z6pAJ6ADR7xH11bsTz__0QrRce4=");
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+}
+
+.main h1 {
+    position: relative;
+}
