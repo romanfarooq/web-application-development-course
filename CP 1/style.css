@@ -8,23 +8,76 @@
     position: relative;
     height: 100vh;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .main::before {
     content: "";
-    background: url("https://media.istockphoto.com/photos/pakistan-flag-waving-cloudy-sky-background-picture-id1069756720?b=1&k=20&m=1069756720&s=170667a&w=0&h=1HvWW4hmPeAUyTd5Z6pAJ6ADR7xH11bsTz__0QrRce4=");
+    background: url("https://w0.peakpx.com/wallpaper/813/29/HD-wallpaper-green-white-star-satin-pakistan-flag-pakistan-flag.jpg");
     background-size: cover;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    opacity: 0.5;
+    opacity: 0.2;
 }
 
-.main h1 {
+.container {
     position: relative;
+    margin: 0 80px;
+}
+
+.heading {
+    text-align: center;
+    padding: 40px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: green;
+}
+
+.paragraph {
+    font-family: 'Times New Roman', Times, serif;
+    color: green;
+}
+
+.audio {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.audio > h3 {
+    margin-top: 20px;
+    padding: 20px;
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.audio > audio {
+    height: 40px;
+    border-radius: 25px;
+    border: 2px solid green;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    text-align: left;
+    padding: 8px;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: green;
+    border: 0.5px solid green;
+}
+
+.table-heading {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: green;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
 }
