@@ -1,4 +1,4 @@
-### Task
+# Task
 
 - Add a background image to the page with opacity.
 - Add at least one h1 tag with text.
