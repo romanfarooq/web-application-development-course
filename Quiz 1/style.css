@@ -127,8 +127,10 @@
 }
 
 .burger__pics {
+  margin-top: 30px;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .burger__pics > div {
@@ -150,7 +152,7 @@
   font-size: 30px;
   color: white;
   font-weight: 600;
-  font-family: 'Alfa Slab One', sans-serif;
+  font-family: sans-serif;
   display: flex;
   flex-direction: column;
 }
@@ -174,4 +176,336 @@
 
 .inner__div > div > img {
   border-radius: 5px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+.btn > button {
+  background-color: #ffc136;
+  cursor: pointer;
+  padding: 10px 15px;
+  margin: 40px 0 20px 0;
+  border: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #42200b;
+  font-size: medium;
+}
+
+.btn > button:hover {
+  background-color: #dc3545;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu__heading {
+  margin: 10px 150px;
+  color: #42200b;
+  text-align: center;
+}
+
+.menu__heading > h1 {
+  font-size: 50px;
+  font-weight: 500;
+  font-family: 'Alfa Slab One',sans-serif;
+}
+
+.menu__heading > p {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 25px;
+}
+
+.menu__cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.menu__card {
+  width: 30%;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu__card > div {
+  height: 320px;
+}
+
+.menu__card > div > img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.menu__card > h2 {
+  font-size: 28px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #3d2514;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 10px
+}
+
+.menu__card > p {
+  font-size: 16px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #3d2514;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.menu__card > button {
+  background-color: #dc3545;
+  color: white;
+  cursor: pointer;
+  padding: 15px 20px;
+  margin: 20px 0 10px 0;
+  border: none;
+  font-family: 'Alfa Slab One', sans-serif;
+  font-size: medium;
+}
+
+.menu__card > button:hover {
+  background-color: #ffc136;
+  transition: all 0.3s ease-in-out
+}
+
+.event__info {
+  margin: 50px;
+  box-shadow: 10px 15px 15px 10px rgb(215, 213, 213);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.event__left {
+  width: 50%;
+  padding: 50px;
+}
+
+.event__right {
+  width: 50%;
+  padding: 50px;
+}
+
+.event__right > img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.event__left > div {
+  padding: 20px;
+}
+
+.event__left > div > h1 {
+  font-size: 30px;
+  color: #3d2514;
+  font-family: 'Alfa Slab One', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.event__left > div > h1 > span {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+.event__left > div > p {
+  margin: 20px 0;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 30px;
+  color: #3d2514;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.form {
+  display: flex;
+}
+
+.form__left {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form__left > div:last-child {
+  align-self: flex-end;
+}
+
+.form__right {
+  width: 20%;
+}
+
+.form__right > img {
+  width: 100%;
+}
+
+.form__middle {
+  margin-top: 70px;
+  width: 60%;
+}
+
+.form__middle > h2 {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: #3d2514;
+  text-align: center;
+}
+
+.form__middle > h1 {
+  font-size: 30px;
+  color: #3d2514;
+  font-family: 'Alfa Slab One', sans-serif;
+  text-align: center;
+  padding: 10px;
+}
+
+.form__middle > form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+}
+
+.form__group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.form__group > input {
+  width: 300px;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #a4a3a3;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #3d2514;
+  border-radius: 2px;
+}
+
+.form__group > button {
+  background-color: #dc3545;
+  color: white;
+  cursor: pointer;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  border: none;
+  font-family: 'Alfa Slab One', sans-serif;
+  font-size: medium;
+}
+
+.form__group > button:hover {
+  background-color: #ffc136;
+  transition: all 0.3s ease-in-out
+}
+
+footer {
+  margin: 30px;
+  background: url(images/footer-bg.jpg) no-repeat center center;
+  background-size: cover;
+  position: relative;
+}
+
+footer::after {
+  content: "";
+  background-color: rgba(33, 33, 33,.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.footer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 30px;
+  z-index: 1;
+  color: white;
+}
+
+.footer__left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.footer__left__top > div {
+  display: flex;
+  align-items: center;
+} 
+
+.footer__left__top > div > img {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+.footer__left__top > div > h1 {
+  font-size: 40px;
+  margin-left: 10px;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+.footer__left__top > p {
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.footer__left__bottom {
+  margin-top: 80px;
+}
+
+.footer__left__bottom > h3 {
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 200;
+}
+
+.footer__right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__right__top > div {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+}
+
+.footer__right__top > div > img {
+  width: 25px;
+  height: 25px;
+  color: white;
+  margin-right: 10px;
+}
+
+.footer__right__top > div > span {
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 200;
 }
