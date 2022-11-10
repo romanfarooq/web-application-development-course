@@ -84,7 +84,7 @@
 }
 
 .nav__left {
-    max-width: 50%;
+  max-width: 50%;
 }
 
 .dotted {
@@ -101,27 +101,77 @@
 }
 
 .main__heading {
-    font-size: 120px;
-    color: #3d2514;
-    font-weight: 700;
-    font-family: 'Alfa Slab One', sans-serif;
-    display: flex;
-    flex-direction: column;
-    line-height: 60px;
-    text-shadow: 4px 5px #fee7ba;
-    letter-spacing: 5px;
+  font-size: 120px;
+  color: #3d2514;
+  font-weight: 700;
+  font-family: 'Alfa Slab One', sans-serif;
+  display: flex;
+  flex-direction: column;
+  line-height: 60px;
+  text-shadow: 4px 5px #fee7ba;
+  letter-spacing: 5px;
 }
 
 .main__heading > span {
-    margin-top: 30px;
-    margin-left: 5px;
-    font-size: 80px;
+  margin-top: 30px;
+  margin-left: 5px;
+  font-size: 80px;
 }
 
 .nav__right {
-    max-width: 50%;
+  max-width: 50%;
 }
 
 .nav__right > img {
-    width: 100%;
+  width: 100%;
+}
+
+.burger__pics {
+  display: flex;
+  justify-content: center;
+}
+
+.burger__pics > div {
+  margin: 10px;
+  position: relative;
+}
+
+.burger__pics > div > img {
+  border-radius: 5px;
+}
+
+.top__left {
+  position: absolute;
+  top: 20px;
+  left: 26px;
+}
+
+.top__left > h1 {
+  font-size: 30px;
+  color: white;
+  font-weight: 600;
+  font-family: 'Alfa Slab One', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.top__left > h1 > span {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.inner__div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.inner__div > div {
+  position: relative;
+}
+
+.inner__div > div > img {
+  border-radius: 5px;
 }
